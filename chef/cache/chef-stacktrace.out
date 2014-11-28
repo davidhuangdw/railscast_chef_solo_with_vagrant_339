@@ -1,0 +1,18 @@
+Generated at 2014-11-28 10:20:11 +0000
+Chef::Exceptions::CookbookNotFound: None of the cookbook paths set in Chef::Config[:cookbook_path], ["/var/chef/cookbooks", "/var/chef/site-cookbooks"], contain any cookbooks
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/client.rb:481:in `assert_cookbook_path_not_empty'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/client.rb:266:in `setup_run_context'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/client.rb:429:in `do_run'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/client.rb:213:in `block in run'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/client.rb:207:in `fork'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/client.rb:207:in `run'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/application.rb:236:in `run_chef_client'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/application/solo.rb:226:in `block in run_application'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/application/solo.rb:218:in `loop'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/application/solo.rb:218:in `run_application'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/lib/chef/application.rb:55:in `run'
+/usr/local/rvm/gems/ruby-2.1.5/gems/chef-11.16.4/bin/chef-solo:25:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.1.5/bin/chef-solo:23:in `load'
+/usr/local/rvm/gems/ruby-2.1.5/bin/chef-solo:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.1.5/bin/ruby_executable_hooks:15:in `<main>'
