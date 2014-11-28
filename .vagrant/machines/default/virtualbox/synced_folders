@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/mac/mine/code/ruby/rails/tutorial/railscast/339-chef-solo-basics/my_339_chef","disabled":false}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/mac/mine/code/ruby/rails/tutorial/railscast/339-chef-solo-basics/my_339_chef","disabled":false},"v-csc-1":{"id":"v-csc-1","guestpath":"/tmp/vagrant-chef-3/chef-solo-1/cookbooks","hostpath":"/Users/mac/mine/code/ruby/rails/tutorial/railscast/339-chef-solo-basics/my_339_chef/cookbooks","disabled":false}}}
