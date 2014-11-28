@@ -11,6 +11,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   config.vm.box = "chef/ubuntu-14.04"
+  config.berkshelf.enabled = true
+  config.berkshelf.berksfile_path = "./cookbooks/myapp/Berksfile"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -100,7 +102,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # end
   config.vm.provision "chef_solo" do |chef|
     chef.run_list = [
-        "recipe[nginx]"
+        "recipe[myapp]"
     ]
   end
 
